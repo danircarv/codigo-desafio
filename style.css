@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 0%,
+    rgba(191, 228, 220, 0.464) 100%
+  );
+  min-height: 100vh;
+}
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+ul {
+  font-family: "Mulish", sans-serif;
+  list-style: none;
+
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+}
+ul li a {
+  text-decoration: none;
+  color: var(--1-f-1534-hyfen, #000000);
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.2;
+}
+ul li a:hover {
+  cursor: grab;
+  opacity: 1;
+}
+
+h1 {
+  color: #000;
+  font-family: "Mulish";
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 114.286% */
+  width: 489px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 4px;
+  background: #69b99d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 32px 15px 32px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4ba384;
+}
+
+section p {
+  color: #7d7987;
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 40px 0;
+  width: 489px;
+}
+
+span {
+  color: #89c5cc;
+  font-family: Mulish;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+footer {
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+
+  line-height: 28px;
+}
+
+footer a {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
